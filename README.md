@@ -1,5 +1,19 @@
 # AWS Terraform Multi-User Remote Desktop & Docker Lab
 
+This project demonstrates how to provision and configure a fully automated multi-user Linux remote desktop environment on AWS using Terraform, Docker, and X2Go.
+
+The entire infrastructure is deployed using Terraform (Infrastructure as Code), and the EC2 instance is automatically configured using a user-data Bash script. Docker is installed automatically and a Dockerized Node.js web application is deployed on instance startup.
+
+## Architecture Overview
+
+- AWS EC2 (Ubuntu)
+- Terraform (Infrastructure as Code)
+- XFCE Desktop Environment
+- X2Go Remote Desktop (Multi-user access)
+- Docker & Docker Compose
+- Node.js Web Application (Dockerized)
+- User-data script for automatic provisioning# AWS Terraform Multi-User Remote Desktop & Docker Lab
+
 This project demonstrates how to provision a fully automated multi-user Linux remote desktop environment on AWS using Terraform, Docker, and X2Go.
 
 ## Project Architecture
@@ -61,3 +75,17 @@ Author
 Hamza Terzi
 Management Information Systems Graduate
 Cloud & DevOps Enthusiast
+
+## Project Screenshots
+
+### Web Application
+![Web App](screenshots/web-app.png)
+
+### X2Go Remote Desktop
+![X2Go](screenshots/x2go.png)
+
+### Docker Container
+![Docker](screenshots/docker.png)
+
+### Terraform Deployment
+![Terraform](screenshots/terraform.png)
