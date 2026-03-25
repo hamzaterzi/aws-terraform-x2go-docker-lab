@@ -1,0 +1,12 @@
+{
+  "name": "docker-compose-demo",
+  "version": "1.0.0",
+  "description": "Node and Redis compose demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "redis": "^4.7.0"
+  }
+}
