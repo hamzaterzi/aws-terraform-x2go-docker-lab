@@ -1,0 +1,7 @@
+aws_region       = "eu-central-1"
+instance_type    = "t3.micro"
+key_name         = "devops-key"
+allowed_ssh_cidr = "0.0.0.0/0"
+project_name     = "x2go-desktop-lab"
+owner            = "Hamza"
+environment      = "lab"
