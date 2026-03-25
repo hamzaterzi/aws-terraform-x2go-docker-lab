@@ -55,6 +55,21 @@ When Terraform is applied:
 - Bash (user-data automation)
 - Cloud-init
 
+- ## Project Screenshots
+
+### Web Application
+![Web App](screenshots/web-app.png)
+
+### X2Go Remote Desktop
+![X2Go](screenshots/x2go.png)
+
+### Docker Container
+![Docker](screenshots/docker.png)
+
+### Terraform Deployment
+![Terraform](screenshots/terraform.png)
+
+
 ## How to Deploy
 
 ```bash
@@ -76,16 +91,3 @@ Hamza Terzi
 Management Information Systems Graduate
 Cloud & DevOps Enthusiast
 
-## Project Screenshots
-
-### Web Application
-![Web App](screenshots/web-app.png)
-
-### X2Go Remote Desktop
-![X2Go](screenshots/x2go.png)
-
-### Docker Container
-![Docker](screenshots/docker.png)
-
-### Terraform Deployment
-![Terraform](screenshots/terraform.png)
